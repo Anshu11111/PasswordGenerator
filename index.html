@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h2>PASSWORD GENERATOR</h2>
+        <div class="big-box">
+          <div class="color1">
+            <div class="copy_inputbox">
+              <input readonly placeholder="PASSWORD" id="passwordInput" />
+              <i class="fa-regular fa-copy" id="copy-btn"></i>
+              <span id="msg"></span>
+            </div>
+          </div>
+          <div class="color1">
+            <div class="box">
+              <div class="box-heading">
+                <p>Password Length</p>
+                <p id="display-length"></p>
+              </div>
+              <div class="slider">
+                <input
+                  id="slider-input"
+                  type="range"
+                  min="1"
+                  max="20"
+                  value="10"
+                  step="1"
+                />
+              </div>
+              <div class="all-input">
+                <div class="ch1">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Include Uppercase Letters</label>
+                </div>
+                <div class="ch1">
+                  <input type="checkbox" id="ch2" />
+                  <label for="ch2">Include Lowercase Letters</label>
+                </div>
+                <div class="ch1">
+                  <input type="checkbox" id="ch3" />
+                  <label for="ch3">Include Numbers</label>
+                </div>
+                <div class="ch1">
+                  <input type="checkbox" id="ch4" />
+                  <label for="ch4">Include Symbols</label>
+                </div>
+              </div>
+              <div class="strength">
+                <p>Strength</p>
+                <p id="color"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="button">
+            <button id="last-button">GENERATE PASSWORD</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/fdab6bf5fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

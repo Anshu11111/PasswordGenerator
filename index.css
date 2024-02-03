@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: rgb(74, 47, 47);
+    height: 100vh;
+    /* padding:  11%  5%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 5px 5px 15px black;
+   width: 30%;
+   padding: 1.5% 3%;
+   color: white;
+   
+}
+.box-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.strength{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.big-box{
+    width: 100%;
+  
+}
+.copy_inputbox {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+.copy_inputbox input{
+    width: 99%;
+    height: 30px;
+}
+i{
+font-size: 20px;
+margin-left: -50px;
+color: red;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+.button button{
+    width:70% ;
+    padding: 2%;
+    background-color: rgb(44, 30, 30);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.slider input{
+    width: 95%;
+}
+#color{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+}
+.active{
+    display: none;
+}
+
+.color1{
+    padding: 3%;
+    margin: 10px 0px ;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
